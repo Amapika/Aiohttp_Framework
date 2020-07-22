@@ -1,14 +1,13 @@
 Aiohttp Demo
 =========
 
-Chat with websockets.
-
+Bank Rest-Operation with Aiohttp
 Installation
 ============
 
 Clone repo and install library::
 
-    $ git clone git@github.com:aio-libs/aiohttp-demos.git
+https://github.com/Amapika/Aiohttp_Framework.git
 
 Run application::
 
