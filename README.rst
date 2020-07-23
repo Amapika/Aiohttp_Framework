@@ -19,15 +19,14 @@ Open browser::
 
 Try run your application now and send a POST request to http://localhost:8080/user?name=test&acc_no=1231311&balance=12000
 
-    for checkBalance:-
-    http://localhost:8080/user/checkBalance
+    [GET] for checkBalance:-
+    http://localhost:8080/user/checkBalance  (localhost:8080/user/checkBalance )
     
-    for withdraw:-
-    http://localhost:8080/user/withdraw
+    [POST]for withdraw:-
+    http://localhost:8080/user/withdraw?amt=12 (localhost:8080/user/withdraw?amt=12 )
     
-    for deposite:-
-    http://localhost:8080/user/deposite
- 
+    [PUT]deposite:-
+    http://localhost:8080/user/deposit?amt=23123 (localhost:8080/user/deposit?amt=23123)
 
 Requirements
 ============
